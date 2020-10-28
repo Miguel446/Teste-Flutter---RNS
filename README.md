@@ -30,3 +30,7 @@ Vamos ao que importa: aqui você terá que implementar uma tela de listagem de p
 Essa tela deve conter o nome do produto, a quantidade e o local que ele se encontra.
 
 A estrutura do projeto está pronta, seu trabalho é entender como funciona e aplicar a modificação proposta.
+
+## Para que o app se conecte à API, é necessário configurar o endereço de ip local da máquina.
+   Utilize o comando ipconfig no terminal do windows para saber o seu endereço ip e adiciona-lo
+   na variável localhost no arquivo lista_produtos_client_impl.dart
