@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 import '../domain/client/lista_produtos_client.dart';
 
 class ProdutosClientImpl implements ProdutosClient {
-  static String localhost = "10.0.0.128";
+  static String localhost = "10.0.0.128"; //TODO configure seu ip local aqui
   final String url = "http://" + localhost + ":8080/estoque/find-all";
   var client = http.Client();
 

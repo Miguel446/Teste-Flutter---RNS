@@ -36,7 +36,7 @@ class ListaProdutosWidget extends StatelessWidget {
                 itemBuilder: buildProdutos,
               );
             }else{
-              return Message(context, "");
+              return Message(context, "Não foi posssível carregar os dados");
             }
           },
         ),
